@@ -121,6 +121,61 @@ main {
     flex: 1 0 auto;
     margin-top: 57px;
 }
+/* --------------------------------------About page styles*/
+/*
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+*/
+.sidebar-left, .sidebar-right {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar-left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.sidebar-right {
+    position: fixed;
+    left: 200px;
+    top: 0;
+    bottom: 0;
+}
+
+.nav-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-left: 400px;
+    padding: 20px;
+}
 
 /* footer */
 
