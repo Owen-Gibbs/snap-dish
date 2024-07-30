@@ -60,27 +60,32 @@ a:hover {
 
  /* changed carousel indicators Colour*/
   .carousel-indicators li {
-    background-color: red !important;
+    background-color: #f27900 !important;
 }
  /* changed carousel indicators Colour*/
  .carousel-indicators .active {
-    background-color: red !important;
+    background-color: #f27900 !important;
 }
 
  /* changed carousel controls colour*/
 .carousel-control-prev-icon , .carousel-control-next-icon {
     background-color: #f92b07 !important;
     font-size: 20px;
+   
 }
 
 .carousel-caption a {
     text-decoration: none;
     font-size: 40px;
-    color: #dc0d0d;
-    /* margin: 10px; */
+    color: #ffff;
+   
+   
 }
 
-
+/* removes bootstrap carousel indicators numbers */
+li::marker {
+    font-size: 0;
+}
 
 /* Navbar dropdown styles */
 
