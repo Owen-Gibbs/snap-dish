@@ -1,0 +1,177 @@
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Zain:wght@200;300;400;700;800;900&display=swap");
+/* Asterick wildcard selector to override default styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic styles */
+    color: #3a3a3a;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+
+/* Header */
+
+header {
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #ff6347;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #ffffff;
+}
+
+/* Navbar */
+
+header a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu>li {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 2px solid #ff6347;
+}
+
+/* Navbar dropdown styles */
+
+nav {
+    position: absolute;
+    background-color: rgba(205, 60, 20, 0.5);
+    color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 1px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+    padding-top: 1rem;
+}
+
+/* Nav toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Logo */
+
+#logo-link {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.logo-text {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.logo-text .snap {
+    color: #ff6347;
+}
+
+.logo-text .dish {
+    color: #333;
+}
+
+/* Main content */
+
+main {
+    flex: 1 0 auto;
+    margin-top: 57px;
+}
+
+/* footer */
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ff6347;
+}
+
+/* Media query for tablets and larger (768px and up) */
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        background-color: #ffffff;
+        font-size: larger;
+    }
+
+    #menu {
+        display: flex;
+        background-color: #ffffff;
+        color: #3a3a3a;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .logo-text {
+        font-size: 300%;
+        line-height: 85px;
+        margin: 0 0.5rem;
+    }
+
+
+}
