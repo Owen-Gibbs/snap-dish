@@ -114,3 +114,26 @@ nav {
 .logo-text .dish {
     color: #333;
 }
+
+/* Main content */
+
+main {
+    flex: 1 0 auto;
+    margin-top: 57px;
+}
+
+/* footer */
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ff6347;
+}
