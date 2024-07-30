@@ -34,6 +34,30 @@ header {
     background-color: #ffffff;
 }
 
+/* Navbar */
+
+header a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu > li {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 2px solid #ff6347;
+}
+
+
+
 /* Logo */
 
 #logo-link {
