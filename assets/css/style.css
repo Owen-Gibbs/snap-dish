@@ -456,7 +456,9 @@ img {
 }
 
 #cover-text>h2 {
-    color: #ffffff
+    color: #ffffff;
+    margin-left: 0;
+    
 }
 
 
