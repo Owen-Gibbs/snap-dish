@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-    color: var(--nutmeg);
+    color: var(--dark-raspberry);
     margin-bottom: 1rem;
 }
 
@@ -181,7 +181,7 @@ hr {
 }
 
 .nutrition-table .item p:nth-child(2) {
-    color: var(--nutmeg);
+    color: var(--dark-raspberry);
     font-weight: 700;
 }
 
