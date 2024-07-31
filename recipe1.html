@@ -3,11 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Meta tags for search engines-->
+      <meta name="description" content="Snap Dish. Recipe Website. Quick Recipes. 15 Minute Prep Recipes">
+      <meta name="keywords"
+          content="Snap Dish, Recipes, Quick recipes, 15 minute prep, 15 min recipes, Breakfast Recipes, Lunch Recipes, Dinner Recipes, Good Food, Food, Healthy Recipes,">
+    <title>Recipe</title>
     <!-- css links -->
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Hello</h1>
+   <header>
+    <div class="logo">
+        <a href="index.html" id="logo-link">
+            <div class="logo-text"><span class="snap">Snap</span><span class="dish">Dish</span></div>
+        </a>
+    </div>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+   </header>
+   <main>
+    <div class="container">
+        <div class="recipe-image">
+            <img src="assets/images/Healthy-Breakfast-Ideas-6-Foods-To-Start-Your-Day-Ft-Image.webp" alt="breakfast recipe-image">
+        </div>
+      <!-- Description of the recipe -->
+       <div class="recipe-info">
+        <h1>Smoothie Bowl</h1>
+        <p class="description">
+            This recipe only requires 3 ingredients, 1 blender, and 5 minutes. Huzzah!
+            Simply add frozen bananas and frozen mixed berries to a blender and blend on low (this is key!) until it looks like Dip ‘n’ Dots (remember those?!). Then add a little (not too much!) non-dairy milk of choice – I like coconut – and  protein powder if you’d like.
+            Blend some more on low, scraping down the sides until you have SOFT SERVE! Yes, a smoothie bowl is glorified soft serve and it’s so dang delicious. Hence the reason I can’t stop.
+        </p>
+
+        <div class="recipe-time">
+            <h3>Preparation Time</h3>
+            <ul>
+                <li><span>Total</span>: Aproximately 5 minutes</li>
+                <li><span>Cooking</span>: 0 minues</li>
+            </ul>
+        </div>
+
+        <div class="steps">
+            <h2>Ingredients</h2>
+            <ul class="ingredients">
+                <li><span>1 heaping cup organic frozen mixed berries</span> </li>
+                <li><span>1 small ripe banana (sliced and frozen)</span> </li>
+                <li><span>2-3 Tbsp light coconut or almond milk (plus more as needed)</span> </li>
+                <li><span>1 scoop plain or vanilla protein powder of choice* (optional)</span> </li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="recipe-steps">
+            <h2>Instructions</h2>
+
+            <div class="instructions">
+                <div class="item">
+                    <div class="num">1</div>
+                    <p>Add frozen berries and banana to a blender and blend on low until small bits remain – see photo</p>
+                </div>
+                <div class="item">
+                    <div class="num">2</div>
+                    <p>Scoop into 1-2 serving bowls (amount as original recipe is written // adjust if altering batch size) and top with desired toppings (optional). I prefer chia seeds, hemp seeds, and coconut, but strawberries, granola.</p>
+                </div>
+                <div class="item">
+                    <div class="num">3</div>
+                    <p>Enjoy!</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="nutrition-label">
+            <h2>Nutrition</h2>
+            <p class="nutrition-value">Nutrition information is a rough estimate calculated without toppings.</p>
+
+        <div class="nutrition-table">
+            <div class="item">
+                <p>Calories</p>
+                <p class="amount">214kcal</p>
+            </div>
+            <div class="item">
+                <p>Carbohydrates</p>
+                <p class="amount">47.5 g</p>
+            </div>
+            <div class="item">
+                <p>Protein</p>
+                <p class="amount">2.8 g</p>
+            </div>
+            <div class="item">
+                <p>Fat</p>
+                <p class="amount"> 2.5 g</p>
+            </div>
+            <div class="item">
+                <p>Saturated Fat </p>
+                <p class="amount"> 1.6 g</p>
+            </div>
+            <div class="item">
+                <p> Fiber</p>
+                <p class="amount">8.8 g</p>
+            </div>
+        </div>
+        </div>
+      </div>
+     </div>
+   </main>
+   <footer>
+
+   </footer>
 </body>
 </html>
