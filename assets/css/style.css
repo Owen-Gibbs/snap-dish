@@ -323,6 +323,7 @@ nav {
     display: flex;
     align-items: center;
     color: #333;
+    padding-left: 10px;
 }
 
 .logo-text {
