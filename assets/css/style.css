@@ -39,7 +39,8 @@ html {
 
 
 h1, h2 {
-    font-size: "Rubik", sans-serif;
+    font-size: 2rem;
+    font-style: "Rubik", sans-serif;;
 }
 
 h1 {
@@ -124,11 +125,46 @@ hr {
     color: var(--dark-raspberry)
 }
 
+.ingredients li span {
+    font-weight: initial;
+}
+
+.instructions .item {
+    padding-left: .5rem;
+    margin-bottom: .4rem;
+    display: flex;
+}
+
+
 .ingredients li {
     margin-bottom: .5rem;
 }
 
+.description p {
+    font-size: .5rem;
+}
 
+
+.instructions .item .num {
+    color: var(--nutmeg);
+    margin-right: 1rem;
+    font-weight: 700;
+}
+
+.instructions .item p span {
+    font-weight: 500;
+}
+
+.nutrition-label .nutrition-value {
+    margin-bottom: 1rem;
+}
+
+.nutrition-table .item {
+    border-bottom: 1px solid var(--light-grey);
+    transition:  all 200ms ease;
+    padding: .75rem 2rem;
+    display: flex;
+}
 
 
 /* setting up some colors for a web page recipes */
