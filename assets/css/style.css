@@ -18,19 +18,67 @@ body {
     color: #3a3a3a;
     font-family: "Rubik", sans-serif;
     font-weight: 700;
+    
+}
+
+html {
+    background-color: var(--eggshell);
+    line-height: 1.4;
+
+ 
+}
+
+/* styling for the image recipe page */
+.recipe-image  {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+   
+}
+
+
+h1, h2 {
+    font-size: "Rubik", sans-serif;
+}
+
+h1 {
+    color: var(--dark-charcoal);
+    font-size: 2.rem;
+}
+
+h2 {
+    color: var(--nutmeg);
+    margin-bottom: 1rem;
+}
+
+
+/* setting up some colors for a web page recipes */
+:root {
+    --nutmeg: hsl(14, 36%, 51%);
+    --dark-raspberry: hsl(332, 48%, 60%);
+
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(35, 40%, 94%);
+    --light-grey: hsl(30, 16%, 90%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+
+    
 }
 
 /* Header */
 
 header {
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #ff6347;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    /* align-items: baseline; */
     background-color: #ffffff;
 }
 
@@ -54,6 +102,39 @@ a:hover {
 
 .active {
     border-bottom: 2px solid #ff6347;
+}
+
+/* bootstrap  */
+
+ /* changed carousel indicators Colour*/
+  .carousel-indicators li {
+    background-color: #f27900 !important;
+}
+ /* changed carousel indicators Colour*/
+ .carousel-indicators .active {
+    background-color: #f27900 !important;
+}
+
+ /* changed carousel controls colour*/
+.carousel-control-prev-icon , .carousel-control-next-icon {
+    background-color: #f92b07 !important;
+    font-size: 20px;
+   
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #ffffff;
+   
+   
+}
+
+
+
+/* removes bootstrap carousel indicators numbers */
+li::marker {
+    font-size: 0;
 }
 
 /* Navbar dropdown styles */
@@ -122,6 +203,16 @@ main {
     margin-top: 57px;
 }
 
+
+ /* Section  */
+ .section-description {
+    font-size: 20px;
+    color:#050505;
+    text-align: center;
+    line-height: 1.3;
+    font-family: "Rubik", sans-serif;
+ }
+=======
 /* Hero Image */
 
 #hero {
@@ -148,6 +239,7 @@ main {
 #cover-text>h2 {
     color: #ffffff
 }
+
 
 /* footer */
 
