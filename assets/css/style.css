@@ -39,21 +39,21 @@ html {
 
 
 h1, h2 {
-    font-size: 2rem;
-    font-style: "Rubik", sans-serif;
-    margin-left: 2rem;
+    font-size: 36px;
+    font-family: "Rubik", sans-serif;
+    margin-left: 36px;
 }
 
 h1 {
     color: var(--dark-charcoal);
     font-size: 2.rem;
-    margin-left: 17rem;
+    margin-left: 272px;
     padding: 7px;
-}
+   }
 
 h2 {
     color: var(--dark-raspberry);
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .recipe-steps {
@@ -120,7 +120,7 @@ hr {
 .recipe-time {
     background-color: var(--rose-white);
     padding: 1.25rem;
-    border-radius: 1.rem;
+    border-radius: 16px;
 }
 
 .recipe-time h3 {
@@ -344,7 +344,7 @@ main {
 
 #aboutsection {
     background: url(../images/image2.jpg) no-repeat center center/cover;
-    color:#fff fff;
+    color:#ffff;
    position: relative;
 
 }
