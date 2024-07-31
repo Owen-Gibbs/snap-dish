@@ -52,6 +52,47 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.recipe-steps {
+    margin: 1rem 0;
+}
+
+.instructions {
+    margin-top: 1rem;
+}
+
+ul {
+    padding-left: 1.25rem;
+}
+
+ul li::marker {
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+
+ul li {
+    margin-bottom: .5rem;
+}
+
+ul li span {
+    color: var(--wenge-brown);
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+hr {
+    margin: 1.5rem 0;
+    border: 1px solid var(--light-grey);
+}
+
+.container {
+    max-width: 800px;
+    background-color: var(--white);
+    margin: 2rem;
+    border-radius: 1rem;
+
+}
+
+
 
 /* setting up some colors for a web page recipes */
 :root {
