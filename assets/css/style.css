@@ -18,11 +18,25 @@ body {
     color: #3a3a3a;
     font-family: "Rubik", sans-serif;
     font-weight: 700;
+    background-color: var(--eggshell);
   
     
    
 }
+/* setting up some colors for a web page recipes */
+:root {
+    --nutmeg: hsl(14, 36%, 51%);
+    --dark-raspberry: hsl(332, 48%, 60%);
 
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(35, 40%, 94%);
+    --light-grey: hsl(30, 16%, 90%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+
+    
+}
 
 /* Header */
 
