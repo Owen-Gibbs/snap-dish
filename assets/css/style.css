@@ -122,6 +122,33 @@ main {
     margin-top: 57px;
 }
 
+/* Hero Image */
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.svg") no-repeat center;
+    position: relative;
+}
+
+/* Hero text */
+
+#cover-text {
+    background-color: rgba(205, 60, 20, 0.5);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#cover-text>h2 {
+    color: #ffffff
+}
+
 /* footer */
 
 #social-networks {
@@ -173,5 +200,70 @@ main {
         margin: 0 0.5rem;
     }
 
+    /* Main */
 
+    main {
+        margin-top: 96px;
+    }
+
+    #hero {
+        height: 600px;
+        width: 100%;
+        background: url("../images/hero-image-2.svg") no-repeat center;
+        position: relative;
+    }
+
+    #cover-text {
+        background-color: rgba(205, 60, 20, 0.5);
+        font-size: 130%;
+        position: absolute;
+        bottom: 30px;
+        width: 40%;
+        min-height: 200px;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+/* Media query for Laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 2px solid #ff6347;
+    }
+
+    #hero {
+        height: 600px;
+        width: 100%;
+        background: url("../images/hero-image-2.svg") no-repeat center;
+        position: relative;
+    }
+
+    #cover-text {
+        background-color: rgba(205, 60, 20, 0.5);
+        font-size: 130%;
+        position: absolute;
+        bottom: 30px;
+        width: 30%;
+        min-height: 200px;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+/* Media Query for screens (1024px and up) */
+@media screen and (min-width: 1024px) {
+    #menu a:hover {
+        border-bottom: 2px solid #ff6347;
+    }
+
+    #hero {
+        height: 600px;
+        width: 100%;
+        background: url("../images/hero-image-2.svg") no-repeat center center/cover;
+        position: fixed;
+    }
 }
