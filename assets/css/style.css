@@ -84,6 +84,8 @@ hr {
     border: 1px solid var(--light-grey);
 }
 
+
+
 .container {
     max-width: 800px;
     background-color: var(--white);
@@ -91,6 +93,41 @@ hr {
     border-radius: 1rem;
 
 }
+
+.container .recipe-img {
+    overflow: hidden;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+
+.container .recipe-img  img {
+    border-radius: 1rem;
+}
+
+.recipe-info {
+    margin: 1.5rem 0
+}
+
+.recipe-time {
+    background-color: var(--rose-white);
+    padding: 1.25rem;
+    border-radius: 1.rem;
+}
+
+.recipe-time h3 {
+    color: var(--dark-raspberry);
+    margin-bottom: .75rem;
+}
+
+.recipe-time ul li::marker {
+    color: var(--dark-raspberry)
+}
+
+.ingredients li {
+    margin-bottom: .5rem;
+}
+
 
 
 
@@ -253,7 +290,7 @@ main {
     line-height: 1.3;
     font-family: "Rubik", sans-serif;
  }
-=======
+
 /* Hero Image */
 
 #hero {
