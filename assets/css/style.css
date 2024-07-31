@@ -202,6 +202,19 @@ main {
     flex: 1 0 auto;
     margin-top: 57px;
 }
+
+#aboutsection {
+    background: url(../images/image2.jpg) no-repeat center center/cover;
+    color:#ffffff;
+
+}
+.about-text {
+    background-color: rgba(205, 60, 20, 0.5);
+    color: #ffffff;
+}
+#aboutsection h1 {
+    color: #ffffff;
+}
 /* --------------------------------------About page styles*/
 /*
 body {
@@ -267,7 +280,7 @@ img {
     line-height: 1.3;
     font-family: "Rubik", sans-serif;
  }
-=======
+
 /* Hero Image */
 
 #hero {
