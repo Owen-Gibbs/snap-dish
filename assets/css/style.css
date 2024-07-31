@@ -54,8 +54,8 @@ h2 {
 
 h1 {
     color: var(--dark-charcoal);
-    font-size: 2.rem;
-    margin-left: 272px;
+    font-size: 32px;
+    text-align: center;
     padding: 7px;
    }
 
@@ -76,16 +76,16 @@ h2 {
 ul {
     padding-left: 1.25rem;
     margin-left: 2rem;
-}
+    }
 
 ul li::marker {
     color: var(--nutmeg);
     font-weight: bold;
-}
+   }
 
 ul li {
     margin-bottom: .5rem;
-}
+   }
 
 ul li span {
     color: var(--wenge-brown);
@@ -96,7 +96,7 @@ ul li span {
 hr {
     margin: 1.5rem 0;
     border: 1px solid var(--light-grey);
-}
+  }
 
 
 
