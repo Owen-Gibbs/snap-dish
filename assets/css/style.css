@@ -40,12 +40,15 @@ html {
 
 h1, h2 {
     font-size: 2rem;
-    font-style: "Rubik", sans-serif;;
+    font-style: "Rubik", sans-serif;
+    margin-left: 2rem;
 }
 
 h1 {
     color: var(--dark-charcoal);
     font-size: 2.rem;
+    margin-left: 17rem;
+    padding: 7px;
 }
 
 h2 {
@@ -59,10 +62,12 @@ h2 {
 
 .instructions {
     margin-top: 1rem;
+    margin-left: 2rem;
 }
 
 ul {
     padding-left: 1.25rem;
+    margin-left: 2rem;
 }
 
 ul li::marker {
@@ -90,7 +95,7 @@ hr {
 .container {
     max-width: 800px;
     background-color: var(--white);
-    margin: 2rem;
+    margin-left: 12rem;
     border-radius: 1rem;
 
 }
@@ -107,7 +112,8 @@ hr {
 }
 
 .recipe-info {
-    margin: 1.5rem 0
+    margin: 1.5rem 0;
+    margin-left: 2rem;
 }
 
 .recipe-time {
@@ -142,6 +148,8 @@ hr {
 
 .description p {
     font-size: .5rem;
+    margin-left: 10rem;
+  
 }
 
 
@@ -153,18 +161,34 @@ hr {
 
 .instructions .item p span {
     font-weight: 500;
+   
 }
 
 .nutrition-label .nutrition-value {
     margin-bottom: 1rem;
+    margin-left: 2rem;
 }
 
 .nutrition-table .item {
     border-bottom: 1px solid var(--light-grey);
-    transition:  all 200ms ease;
     padding: .75rem 2rem;
     display: flex;
 }
+
+.nutrtion-table .item:last-child{
+    border-bottom: 0;
+}
+
+.nutrition-table .item p:nth-child(2) {
+    color: var(--nutmeg);
+    font-weight: 700;
+}
+
+.nutrition-table .item > * {
+    width: 100px;
+    margin-right: auto;
+}
+
 
 
 /* setting up some colors for a web page recipes */
@@ -473,3 +497,30 @@ main {
         position: fixed;
     }
 }
+
+
+/* media query for the cooking page */
+
+@media (max-width: 540px) {
+    h1{
+        margin-top: 2rem;
+    }
+
+
+    .container {
+        margin: 0;
+    }
+
+
+    .container .recipe-img {
+        padding: 0;
+        border-radius: 0;
+    }
+
+
+    .container .recipe-img img {
+        border-radius: 0;
+    }
+}
+
+
