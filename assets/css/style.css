@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     /* Generic styles */
     color: #3a3a3a;
-    font-family: "Rubik", sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 700;
 
 }
@@ -40,9 +40,15 @@ html {
 
 
 h1, h2 {
+    font-size: 2rem;
+    font-family: "Rubik", sans-serif;
+}
+
+h1, h2 {
     font-size: 36px;
     font-family: 'Rubik', sans-serif;
     margin-left: 36px;
+}
 
 h1,
 h2 {
@@ -54,6 +60,9 @@ h2 {
 
 h1 {
     color: var(--dark-charcoal);
+
+    font-size: 2rem;
+    margin-left: 17rem;
     font-size: 2.rem;
     margin-left: 272px;
     padding: 7px;
@@ -360,16 +369,14 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/image2.jpg) no-repeat center center/cover;
-
+    color:#ffffff;
+   position: relative;
     color:#ffff;
    position: relative;
-
     color: #ffffff;
     position: relative;
     display: flex;
    
-
-
 }
 
 .about-text {
