@@ -305,6 +305,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    padding-right: 10px;
 }
 
 /* Logo */
@@ -353,7 +354,7 @@ main {
     color: #fff fff;
     position: relative;
     display: flex;
-    min-width: 320px;
+   
 
 }
 
@@ -466,6 +467,7 @@ img {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin-left: 0;
 }
 
 #social-networks i {
