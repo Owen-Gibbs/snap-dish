@@ -205,15 +205,20 @@ main {
 
 #aboutsection {
     background: url(../images/image2.jpg) no-repeat center center/cover;
-    color:#ffffff;
+    color:#fff fff;
+   position: relative;
 
 }
 .about-text {
     background-color: rgba(205, 60, 20, 0.5);
     color: #ffffff;
+    top: 50px;
+    text-align: center;
+    padding: 20px;
 }
 #aboutsection h1 {
     color: #ffffff;
+    padding: 20px; 
 }
 /* --------------------------------------About page styles*/
 /*
