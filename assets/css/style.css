@@ -44,13 +44,7 @@ h1, h2 {
     font-family: 'Rubik', sans-serif;
     margin-left: 36px;
 
-h1,
-h2 {
-    font-size: 2rem;
-    font-family: 'Rubik', sans-serif;
-    margin-left: 2rem;
-
-}
+  } 
 
 h1 {
     color: var(--dark-charcoal);
