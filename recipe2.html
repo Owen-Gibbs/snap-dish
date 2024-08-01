@@ -2,12 +2,127 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+      <!-- Required meta tags -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Meta tags for search engines-->
+      <meta name="description" content="Snap Dish. Recipe Website. Quick Recipes. 15 Minute Prep Recipes">
+      <meta name="keywords"
+          content="Snap Dish, Recipes, Quick recipes, 15 minute prep, 15 min recipes, Breakfast Recipes, Lunch Recipes, Dinner Recipes, Good Food, Food, Healthy Recipes,">
+    <title>Recipe</title>
+     <!-- Favicon -->
+     <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+     <link rel="icon" type="image/png" href="assets/images/favicon.png">
+ 
     <!-- css links -->
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+        <header>
+            <div class="logo">
+                <a href="index.html" id="logo-link">
+                    <div class="logo-text"><span class="snap">Snap</span><span class="dish">Dish</span></div>
+                </a>
+            </div>
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+           </header>
+        <!-- main  -->
+        <main>
+            <div class="container">
+                <div class="recipe-image">
+                    <img src="assets/images/eggs.jpg" alt="breakfast recipe-image">
+                </div>
+              <!-- Description of the recipe -->
+               <div class="recipe-info">
+                <h1>Sunny-Pan</h1>
+                <p class="description">
+                    The Sunny Side Up Lunch is a delightful and satisfying meal that combines the simplicity of perfectly cooked eggs with an array of flavorful and nutritious sides.
+                     This dish is designed to be both visually appealing and delicious, offering a balanced mix of protein, vegetables, and carbs.
+                </p>
+        
+                <div class="recipe-time">
+                    <h3>Preparation Time</h3>
+                    <ul>
+                        <li><span>Total</span>: Aproximately 15 minutes</li>
+                        <li><span>Cooking</span>: 12 minues</li>
+                    </ul>
+                </div>
+        
+                <div class="steps">
+                    <h2>Ingredients</h2>
+                    <ul class="ingredients">
+                        <li><span>Ripe avocado ,sliced into wedges.</span> </li>
+                        <li><span>Two slices of toasted whole grain bread</span> </li>
+                        <li><span>Fresh, organic eggs are used to ensure the highest quality</span> </li>
+                        <li><span>A colorful assortment of vegetables including cherry tomatoes</span> </li>
+                    </ul>
+                </div>
+        
+                <hr>
+        
+                <div class="recipe-steps">
+                    <h2>Instructions</h2>
+        
+                    <div class="instructions">
+                        <div class="item">
+                            <div class="num">1</div>
+                            <p> The vegetables are sautéed in olive oil with a touch of garlic until they are tender but still crisp.</p>
+                        </div>
+                        <div class="item">
+                            <div class="num">2</div>
+                            <p>The eggs are fried gently until the whites are fully cooked, and the yolks remain runny, providing a rich and creamy texture.</p>
+                        </div>
+                        <div class="item">
+                            <div class="num">3</div>
+                            <p>Seasoned with a pinch of sea salt, black pepper, and a sprinkle of fresh herbs like basil or parsley.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <hr>
+        
+                <div class="nutrition-label">
+                    <h2>Nutrition</h2>
+                    <p class="nutrition-value">Nutrition information is a rough estimate calculated without toppings.</p>
+        
+                <div class="nutrition-table">
+                    <div class="item">
+                        <p>Calories</p>
+                        <p class="amount">214kcal</p>
+                    </div>
+                    <div class="item">
+                        <p>Carbohydrates</p>
+                        <p class="amount">47.5 g</p>
+                    </div>
+                    <div class="item">
+                        <p>Protein</p>
+                        <p class="amount">2.8 g</p>
+                    </div>
+                    <div class="item">
+                        <p>Fat</p>
+                        <p class="amount"> 2.5 g</p>
+                    </div>
+                    <div class="item">
+                        <p>Saturated Fat </p>
+                        <p class="amount"> 1.6 g</p>
+                    </div>
+                    <div class="item">
+                        <p> Fiber</p>
+                        <p class="amount">8.8 g</p>
+                    </div>
+                </div>
+                </div>
+              </div>
+             </div>
+           </main>
     
 </body>
 </html>
