@@ -55,6 +55,9 @@ h1, h2 {
 h1 {
     color: var(--dark-charcoal);
     margin-left: 17rem;
+    font-size: 2rem;
+    margin-left: 272px;
+    padding: 7px;
 
    }
 
