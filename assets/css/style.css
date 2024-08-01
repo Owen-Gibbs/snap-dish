@@ -54,10 +54,14 @@ h1, h2 {
 
 h1 {
     color: var(--dark-charcoal);
+
+    /* margin-left: 17rem; */
+
     margin-left: 17rem;
     font-size: 2rem;
     margin-left: 272px;
     padding: 7px;
+
 
    }
 
@@ -375,17 +379,22 @@ main {
 }
 
 .about-text {
-    background-color: rgba(205, 60, 20, 0.5);
-    color: #ffffff;
+    color: var(--rose-white);
     top: 50px;
-    text-align: center;
-    padding: 20px;
-    position: absolute;
+    padding: 70px;
 }
 
+.about-text p {
+    text-align: center;
+    padding: 50px;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+
 #aboutsection h1 {
-    color: #ffffff;
-    padding: 20px;
+    color: var(--rose-white);
+    text-align: center;
 }
 
 .sidebar-left,
