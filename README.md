@@ -129,6 +129,8 @@ SnapDish is tailored to busy individuals and families who crave home-cooked meal
 
 <img width="1437" alt="About Page Lighthouse test" src="https://github.com/user-attachments/assets/3d618759-49e3-4163-b8a3-d787d757b70c">
 
+## Bugs and issues
+
 
 
 
