@@ -134,7 +134,7 @@ SnapDish is tailored to busy individuals and families who crave home-cooked meal
 * The font in the menu of the recipe page is different to the homepage & about page.
 * The about page text doesn't resize on mobile devices 
 * The About page isn't responsive 
-
+* The links to the recipe information,image links of the carousel are not working.
 
 
 
