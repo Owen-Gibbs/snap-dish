@@ -1,131 +1,175 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# SnapDish
 
-Esty-8 Bechian,
+SnapDish is an innovative recipe website designed to revolutionise the way people approach cooking by making it accessible, enjoyable, and efficient. Our project aspires to demystify the culinary process, providing home cooks of all skill levels with a vast array of quick, easy-to-follow recipes that don't sacrifice flavour or quality. By focusing on simplicity and speed, SnapDish aims to empower individuals to prepare delicious meals without the stress and complexity often associated with cooking.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+SnapDish is tailored to busy individuals and families who crave home-cooked meals but have limited time to spend in the kitchen. From working professionals and parents juggling multiple responsibilities to college students and novice cooks, our platform caters to anyone looking for convenient and tasty meal solutions.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+![Responsive Landing Page](https://github.com/user-attachments/assets/6b21f557-4efa-4526-9212-e1052050f62e)
 
-## Gitpod Reminders
+## Design
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Wireframes
 
-`python3 -m http.server`
+![alt text](<Homepage Wire Fame.png>)
 
-A blue button should appear to click: _Make Public_,
+![alt text](<Recipes Page Wire Frame.png>)
 
-Another blue button should appear to click: _Open Browser_.
+![alt text](<About Page Wire Frame.png>)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+## User Stories
 
-A blue button should appear to click: _Make Public_,
+<img width="1440" alt="User Stories Project Board" src="https://github.com/user-attachments/assets/c27f798d-2598-41cf-a4cd-c03370069ff0">
 
-Another blue button should appear to click: _Open Browser_.
+## Features
+### Existing Features
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Navigation Bar
 
-To log into the Heroku toolbelt CLI:
+* The navigation bar is present on all pages of the site allowing users to navigate the different pages: Home, Recipes and About.
+* The navigation bar is reponsive on all screen sizes.
+* The navigation bar includes a logo which is a link to the landing page.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+![SnapDish Full screen Nav](https://github.com/user-attachments/assets/079eb467-0632-4233-80b3-3c3af56a1bb8)
 
-### Connecting your Mongo database
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+#### Hero Image
 
-------
+* The landing page features an eye catching image and some text for a brief introduction to the site.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Hero image and text](https://github.com/user-attachments/assets/21296552-62e5-4cfd-9100-eea3f33d8e53)
 
-**June 18, 2024,** Add Mongo back into template
+#### The Footer
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+* The footer contains multiple social media links.
+* The footer is at the bottom of each page.
 
-**May 28 2024:** Fix Mongo and Links installs
 
-**April 26 2024:** Update node version to 16
+![The Footer](https://github.com/user-attachments/assets/95699b34-a2f0-4c57-85bd-f4918e6a4c86)
 
-**September 20 2023:** Update Python version to 3.9.17.
+#### Recipe Carousel
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* The carousel contains an image for each section of recipes breakfast, lunch and dinner.
+* The carousel automatically scrolls through the different images.
+* Each image is a link to the recipes.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Recipe Carousel](https://github.com/user-attachments/assets/c0b39a01-a11d-4688-9080-62ead8c1e368)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### Recipe Pages
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* The recipe pages include high quality images.
+* Preparation times
+* Step by step instructions
+* Nutritional values
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<img width="780" alt="Recipe Instruction" src="https://github.com/user-attachments/assets/c3bd8f52-3521-418b-bd6f-6c255647f6ed">
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### The About Page
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* The about page has a background image.
+* There is text overlaying the image which gives a description of SnapDish's aim.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<img width="1436" alt="About Page" src="https://github.com/user-attachments/assets/78a0a2dd-a0f0-463c-838f-d4932e92de5a">
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Features left to implement 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Add a contact form to the about page
+* Add more categories and recipes
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
+#### Homepage
 
-**Why have you added this script?**
+* HTML - No errors were found when passing the code through the official validator https://validator.w3.org/
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+#### Recipes Page
 
-**How will this affect me?**
+* HTML - 2 errors
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<img width="1426" alt="Recipes Page Errors" src="https://github.com/user-attachments/assets/644d4e78-ab57-4533-ae70-32abc7c0b020">
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+#### recipe1.html
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* HTML - No errors were found when passing the code through the official validator https://validator.w3.org/
 
-**So….?**
+#### recipe2.html
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* HTML - No errors were found when passing the code through the official validator https://validator.w3.org/
 
-**Can I opt out?**
+#### recipe3.html
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* HTML - No errors were found when passing the code through the official validator https://validator.w3.org/
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+#### About Page
 
-**Anything more?**
+* HTML - No errors were found when passing the code through the official validator https://validator.w3.org/
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### CSS
 
----
+* CSS - No errors were found when passing the code through the official validator https://jigsaw.w3.org/css-validator/validator
 
-Happy coding!
+
+
+### Lighthouse Testing
+
+#### Homepage
+
+<img width="1428" alt="Home Page Lighthouse test" src="https://github.com/user-attachments/assets/262cf76c-57c1-4474-9135-39cb824979c3">
+
+#### Recipes Page
+
+<img width="1440" alt="Recipe Page Lighthouse test" src="https://github.com/user-attachments/assets/ec64eaf1-b73c-4839-bc89-653780352b32">
+
+#### About Page
+
+<img width="1437" alt="About Page Lighthouse test" src="https://github.com/user-attachments/assets/3d618759-49e3-4163-b8a3-d787d757b70c">
+
+## Bugs and issues
+
+* The font in the menu of the recipe page is different to the homepage & about page.
+* The about page text doesn't resize on mobile devices 
+* The About page isn't responsive 
+* The links to the recipe information,image links of the carousel are not working.
+
+
+
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Main Branch
+* Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+
+The live link can be found here - https://owen-gibbs.github.io/snap-dish/
+
+## Credits
+
+### Content
+
+* The functionality for the menu was taken from the love running project
+* The icon for the menu, social media links and favicon were taken from Font Awesome
+* The image on the home page was taken from canva.com
+* The text on the homepage and about page was generated using ChatGPT
+* The fonts were taken from google fonts
+* The carousel was developed using bootstrap
+* Recipe pages were developed using https://www.youtube.com/watch?v=hbgGn96daIk and help from stackoverflow
+* Recipe text was generated using ChatGPT
+* recipe images were taken from https://www.foodiesfeed.com/free-food-photo/fresh-limes-with-water-drops/download/
+
+
+
+
+
+
+
+
+
+
+
+
