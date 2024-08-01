@@ -6,6 +6,16 @@ SnapDish is tailored to busy individuals and families who crave home-cooked meal
 
 ![Responsive Landing Page](https://github.com/user-attachments/assets/6b21f557-4efa-4526-9212-e1052050f62e)
 
+## Design
+
+### Wireframes
+
+![alt text](<Homepage Wire Fame.png>)
+
+![alt text](<Recipes Page Wire Frame.png>)
+
+![alt text](<About Page Wire Frame.png>)
+
 ## User Stories
 
 <img width="1440" alt="User Stories Project Board" src="https://github.com/user-attachments/assets/c27f798d-2598-41cf-a4cd-c03370069ff0">
@@ -118,6 +128,8 @@ SnapDish is tailored to busy individuals and families who crave home-cooked meal
 #### About Page
 
 <img width="1437" alt="About Page Lighthouse test" src="https://github.com/user-attachments/assets/3d618759-49e3-4163-b8a3-d787d757b70c">
+
+## Bugs and issues
 
 
 
