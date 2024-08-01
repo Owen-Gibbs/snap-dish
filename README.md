@@ -101,9 +101,9 @@ SnapDish is tailored to busy individuals and families who crave home-cooked meal
 
 #### CSS
 
-* CSS - Showing 5 errors
+* CSS - No errors were found when passing the code through the official validator https://jigsaw.w3.org/css-validator/validator
 
-<img width="1440" alt="CSS 5 errors" src="https://github.com/user-attachments/assets/c4a2630b-e869-44c3-8fb3-2351b2dd0dae">
+
 
 ### Lighthouse Testing
 
